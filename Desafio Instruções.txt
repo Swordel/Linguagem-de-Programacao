@@ -1,0 +1,28 @@
+PROGRAMA DESAFIO 1
+
+1 – Pesquise as funções de biblioteca abaixo que manipulam arquivos.
+ 	fopen();
+  	fclose();
+	fwrite();    cuidado com esta função
+	fread();    cuidado com esta função
+	exit(0);
+
+2 - Escreva um programa que tem 1 vetores bidimensionais nome_musica[3][20] e 1 vetores  bidimensionais nome_autor[[3]20] declarados como variáveis globais. 
+
+Na função main()  faça um menu com as seguintes funções: 
+
+   1 – entrada de dados.
+   2 – lista todos os dados na tela.
+   3 – pesquisa um nome_musica pelo nome completo e mostra todos os dados na tela
+   4 – pesquisa o nome_autor pela 1. letra e mostra todos os dados na tela.
+   5 – altera dados. Pesquisa pelo nome_musica completo.
+   6 – exclui dados. Pesquisa pelo nome_musica completo.   
+   7 - saída
+
+OBS: Os 6 vetores devem ser escritos e lidos de um arquivo.
+
+Cada uma das opções do menu é uma função no programa. 
+
+Não pode usar nenhuma função de biblioteca a não ser as 6 da apostila e as funções de manipulação de arquivos pesquisadas.
+
+Os vetores das músicas são as chaves primárias do banco de dados. Portanto não pode ter 2 músicas com nomes iguais.
