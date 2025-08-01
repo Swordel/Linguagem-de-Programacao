@@ -1,0 +1,46 @@
+PROGRAMA DESAFIO 2
+
+
+1 - Escreva um programa que tem a estrutura de dados abaixo. O programa tem as seguintes opções:
+
+
+1 – Entrada de dados da música.
+
+2 – Lista todas as músicas na tela.
+
+3 – Pesquisar uma música pelo nome completo e mostra todos os dados na tela.
+
+4 – Pesquisar autor pela 1. letra e mostra todos os dados.
+
+5 – Listar músicas por faixa de preço.
+
+6 – Altera quantidade em estoque (entrada e saída).
+
+7 - Altera preço de uma música pesquisado pelo nome completo.
+
+8 – Altera todos os dados da música pesquisado pelo nome completo.
+
+9 – Exclui a música pesquisado pelo nome completo.
+
+10 - Saída pelo usuário
+
+
+Estrutura: música, autor, quantidade em estoque, preço.
+
+
+A única estrutura de dados do programa deve ser uma variável LOCAL na função main(). Portanto a passagem da estrutura para as funções utiliza ponteiro.
+
+
+Cada uma das opções do menu é uma função no programa.
+
+
+A música é a “chave primário” do banco de dados.
+
+
+Todas as operações de leitura e escrita devem ser feitas direto no arquivo. (utilize a função fseek quando necessário).
+
+
+O programa tem um único arquivo de dados. Não pode usar nenhum arquivo auxiliar.
+
+
+Não pode usar nenhuma função de biblioteca a não ser as 6 da apostila e as funções de manipulação de arquivos fread(), fwrite() e fssek().
